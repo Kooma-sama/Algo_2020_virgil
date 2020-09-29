@@ -21,15 +21,15 @@ for value in l:
         count = count + 1
         if count == 1:
             l2.append(value)
-        return
-    elif value == 2:
+        break
+    if value == 2:
         count = count + 1
-        if count == 1:
+        if count == 2:
             l2.append(value)
-        return
-    elif value == 3:
+        break
+    if value == 3:
         count = count + 1
-        if count == 1:
+        if count == 3:
             l2.append(value)
-        return
+        break
 print(l2)
