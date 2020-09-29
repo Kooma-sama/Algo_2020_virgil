@@ -14,21 +14,25 @@
 l2 = []
 
 l = [1, 1, 1, 3, 2, 2, 3]
-count = 0
+# count = 0
+# for value in l:
+#     if value == 1:
+#         count = count + 1
+#         if count == 1:
+#             l2.append(value)
+        
+#     if value == 3:
+#         count = count + 1
+#         if count == 4:
+#             l2.append(value)
+        
+#     if value == 2:
+#         count = count + 1
+#         if count == 5:
+#             l2.append(value)
+
 for value in l:
-    if value == 1:
-        count = count + 1
-        if count == 3:
-            l2.append(value)
-        
-    if value == 3:
-        count = count + 1
-        if count == 4:
-            l2.append(value)
-        
-    if value == 2:
-        count = count + 1
-        if count == 6:
-            l2.append(value)
+    if value not in l2:
+        l2.append(value)
         
 print(l2)
