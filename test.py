@@ -23,7 +23,7 @@ for value in l:
         
     if value == 3:
         count = count + 1
-        if count == 7:
+        if count == 4:
             l2.append(value)
         
     if value == 2:
